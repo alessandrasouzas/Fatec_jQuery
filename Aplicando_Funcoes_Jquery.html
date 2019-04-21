@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <title>SNES</title>
+
+    <link rel='stylesheet' href='estilo.css'>
+    
+    <!-- jQuery-->
+    
+    <style>
+        .negrito {
+            font-weight: bold;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input,
+        form select,
+        form button {
+            margin: 10px;
+            font-size: 1.6em;
+        }
+    </style>
+</head>
+
+<body class='conteudo exercicio'>
+    <h1>Jogos de Super Nintendo</h1>    
+    <div>
+        <ul id='jogos_Corrida'>
+            <li>S. Mario Kart</li>
+            <li>Top Gear</li>
+            <li>F-Zero</li>
+        </ul>
+    </div>
+
+    <div id='conteudo'></div>
+
+    <script>
+        const jogos = [
+                { nome: 'S. Street Fighter', preço: 25 },
+                { nome: 'Mega Man X', preço: 20 },
+                { nome: 'Chrono Trigger', preço: 15 },
+                { nome: 'Ronaldinho Soccer 97', preço: 20 }
+        ]
+
+    </script>
+</body>
